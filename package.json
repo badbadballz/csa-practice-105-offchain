@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "vitest run",
-    "build": "tsc"
+    "build": "tsc",
+    "tt": "echo \" testing thing\""
   },
   "keywords": [],
   "author": "",
