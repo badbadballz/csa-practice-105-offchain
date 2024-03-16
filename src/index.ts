@@ -47,7 +47,7 @@ const x3: readonly string[] = ["a", "b"]; // Readonly modifier
 const y3: ReadonlyArray<string> = ["a", "b"];
 const j3: ReadonlyArray<string | number> = ["a", 1, "b", 2];
 
-j3.push("x"); // Invalid
+//j3.push("x"); // Invalid
 console.log(j3);
 
 function sum1(a: number, b: number) {
